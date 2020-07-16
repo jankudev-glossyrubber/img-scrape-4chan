@@ -57,4 +57,4 @@ printBlock "Wallpapers"
 ./scrape.sh wg 'nature|mountain|forrest' "${DEST}/img/wallpapers"
 
 printBlock "Sci-fi, cyberpunk and steampunk"
-./scrape.sh wg 'sci-?fi||science|fractal|math|steampunk|cyberpunk' "${DEST}/img/scifi"
+./scrape.sh wg 'sci-?fi|science|fractal|math|steampunk|cyberpunk' "${DEST}/img/scifi"
