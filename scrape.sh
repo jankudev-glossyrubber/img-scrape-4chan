@@ -66,7 +66,7 @@ for page_num in `seq 1 10`; do
 		
 			# skip existing by name (since its composed of md5 hash)
 			if [[ -f "${DEST}/${md5}${img_ext}" ]]; then
-				echo "Image already downloaded ${img_id}${img_ext} (md5: ${md5})"
+				#echo "Image already downloaded ${img_id}${img_ext} (md5: ${md5})"
 				continue
 			fi
 

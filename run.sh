@@ -16,6 +16,10 @@ echo "Scraping from 4chan threads..."
 
 printBlock "Artistic nudes" 
 ./scrape.sh wg 'artistic nudes|hegre|elegant ladies|angels' "${DEST}/img/art_nude"
+./scrape.sh s 'art hoe|art thread|fine-?art' "${DEST}/img/art_nude"
+
+printBlock "Women" 
+./scrape.sh s 'real love|cute|ylyl' "${DEST}/img/women"
 
 printBlock "Space"
 ./scrape.sh wg 'space' "${DEST}/img/space"
@@ -43,7 +47,7 @@ printBlock "Petite Women"
 
 printBlock "Blonde"
 ./scrape.sh hr 'blonde' "${DEST}/img/blonde"
-./scrape.sh s 'blonde' "${DEST}/img/blonde"
+./scrape.sh s 'blonde|aryan|snowy' "${DEST}/img/blonde"
 
 printBlock "You become the girl below"
 ./scrape.sh s 'you become the girl' "${DEST}/img/ybtgb"
@@ -58,3 +62,6 @@ printBlock "Wallpapers"
 
 printBlock "Sci-fi, cyberpunk and steampunk"
 ./scrape.sh wg 'sci-?fi|science|fractal|math|steampunk|cyberpunk' "${DEST}/img/scifi"
+
+printBlock "Breasts images"
+./scrape.sh s "no bra|fortyfive|fiftyfive|shirtless" "${DEST}/img/breasts"
